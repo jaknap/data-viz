@@ -20,7 +20,7 @@ const Chart = (props) => {
             <YAxis title="Number of pull requests (thousands)" />
                 <LineSeries
                     data={dataArr}
-                    style={{stroke: 'violet', strokeWidth: 3}}/>
+                    style={{stroke: 'green', strokeWidth: 3}}/>
         </XYPlot>
     );
 }
